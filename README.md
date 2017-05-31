@@ -1,2 +1,2 @@
 # devops-lesson-1
-DevOps Lessi=on 1
+DevOps Lesson 1
