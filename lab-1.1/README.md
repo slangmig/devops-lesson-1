@@ -135,17 +135,17 @@ In the Google Cloud Shell window wait until you see the prompt displayed.
 We are going to copy an image from a bucket. We first need to create a bucket.
 We need to create a unique identifier, so type the following command replacing
 xyz with your initials and replacing 20170119 with todays's date.  
-`gsutil mb gs://devops-xyz-20170119`  
+`gsutil mb gs://devops-xyz-20170531`  
 
 Now we need to copy files from a bucket in another project to the new bucket.
 Type the following command again substituting your initials and today's date.
 This can take a few minutes.  
-`gsutil cp gs://simplilearn-devops-image/*2017*gz gs://devops-xyz-20170119/`  
+`gsutil cp gs://devops-vijay-20170531/*2017*gz gs://devops-xyz-20170531/`  
 
 Verify that the copy worked, again substituting your initials and today's
 date.  
 `gsutil ls`  
-`gsutil ls gs://devops-xyz-20170119/`  
+`gsutil ls gs://devops-xyz-20170531/`  
 
 Close the shell.  
 `exit`
@@ -173,7 +173,7 @@ We are now going to create a computer from the image.
 Select _VM Instances_ from the left hand column.
 Select _Create Instance_.
 
-Give it a Name `lab`  
+Give it a Name `lab`
 Select a Zone near to where you are located.  
 See that it tells you the Effective hourly rate and the estimated monthly
 cost. This cost will barely impact your $300 credit.
