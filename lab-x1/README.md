@@ -2,7 +2,7 @@
 
 ## Overview
 
-This bonus exercise is designed to give some background into networking which is essential for DevOps.
+This bonus exercise is designed to give some background into networking which is essential for DevOps
 
 
 ### Step 1
